@@ -1,0 +1,47 @@
+.tarolo {
+    width: 800px;
+}
+
+.fejlec {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    height: 100;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+p {
+    color: gray;
+    text-align: center;
+}
+
+.a {
+        padding: 20px;
+        margin: 100%;
+        background-color: orange;
+        text-align: center;
+        border-radius: 25%;
+        border-width: 20px;
+        width: fit-content;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.menu ul li {
+        padding: 20px;
+        background-color: orange;
+        text-align: center;
+        border-radius: 25%;    
+}
+
